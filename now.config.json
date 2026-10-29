@@ -1,6 +1,11 @@
 {
-  "scope": "x_rptp_rpt_crm_cor",
-  "scopeId": "7f84792b3b889f140b41eff764e45ada",
-  "name": "RPT CRM Core",
-  "tsconfigPath": "./src/server/tsconfig.json"
+    "scope": "x_rptp_rpt_crm_cor",
+    "scopeId": "7f84792b3b889f140b41eff764e45ada",
+    "name": "RPT CRM Core",
+    "tsconfigPath": "./src/server/tsconfig.json",
+    "licensing": {
+        "enforceLicense": "none"
+    },
+    "description": "[BUILD AGENT GENERATED]:  First draft version streamlining the basic reusable data model for a Financial CRM application.",
+    "ideCreated": "IDE"
 }
