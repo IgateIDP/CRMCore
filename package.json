@@ -1,0 +1,19 @@
+{
+    "name": "x-rptp-rpt-crm-core",
+    "version": "1.0.0",
+    "description": "[BUILD AGENT GENERATED]:  First draft version streamlining the basic reusable data model for a Financial CRM application.",
+    "license": "UNLICENSED",
+    "imports": {
+        "#now:*": "./@types/servicenow/fluent/*/index.js"
+    },
+    "scripts": {
+        "build": "now-sdk build",
+        "deploy": "now-sdk install",
+        "transform": "now-sdk transform",
+        "types": "now-sdk dependencies"
+    },
+    "devDependencies": {
+        "@servicenow/sdk": "4.14.0",
+        "@servicenow/glide": "27.0.5"
+    }
+}
